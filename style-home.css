@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background-color: #dff0da;
+}
+
+#banner {
+    width: 100%;
+    height: 300px;
+
+}
+
+#missao {
+    font-size: 20px;
+
+}
+
+em strong{
+    color: rgb(1, 74, 1);
+}
+
+
+
+/*seletores CSS, "h1:hover" */
+ p {
+    text-align: center;
+}
+
+.principal {
+    background-color: rgb(193, 244, 227);
+    padding: 30px;
+
+}
+
+.produtos{
+    background-color: antiquewhite;
+    padding: 20px;
+
+}
+
+.itens {
+    font-style: italic;
+    
+}
+
+ul {
+    /*
+
+    Tipos de posicionamento: block, inline e inline-block
+    block =  vai sempre ocupar a linha, esse é o padrão
+    inline = não permite alterar espaçamento interno e externo
+    inline-block = permite alterar espaçamento e largura, ocupando apenas o seu conteúdo
+
+    */
+
+    display: inline-block;
+    vertical-align: top;
+    line-height: 2.5em;
+    width: 20%;
+    margin-left: 30%;
+   
+}
+
+.imagem-produtos {
+    width: 20%;
+
+}
+
+.titulo-principal {
+    padding-left: 20px;
+
+}
+
+.titulo-centralizado {
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+

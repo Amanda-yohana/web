@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Mundo Verde</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    
+    <header>
+        <div class="painel">
+            <h1> <img src="img/logo-header.png" alt="Logo Mundo Verde"> </h1>
+        
+
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="produtos.html">Produtos</a> </li>
+                <li> <a href="contato.html">Contatos</a> </li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+<main>
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" id="entrada" placeholder="Digite seu nome completo" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" class="entrada" placeholder="email@dominio.com.br" required>
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" class="entrada" placeholder="(xx)xxxxx-xxxx"  required>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" cols="70" rows="10" class="entrada"> </textarea>
+
+        <!--fieldset é igual a div porem indica que contém dados -->
+        <fieldset>
+            <!-- no de p usamos legend, que representa o titulo de um fieldset-->
+            <legend>Como prefere o nosso contato?</legend>
+            <label for="radio-whatsapp">
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
+                Whatsapp
+             </label>
+
+             <label for="radio-telefone">
+                <input type="radio" name="contato" value="telefone" id="radio-telefone" >
+                Telefone
+             </label>
+
+             <label for="radio-email">
+                <input type="radio" name="contato" value="email" id="radio-email" >
+                E-mail
+             </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Produtos que mais tenho interesse</legend>
+            <select>
+                <option>Cereais</option>
+                <option>Suplementos</option>
+                <option>Temperos</option>
+
+            </select>
+
+        </fieldset>
+
+
+    </form>
+
+</main>
+
+    <footer>
+        <img src="img/logo-rodape.png" alt="Logo Mundo Verde">
+        <p class="copyright">&#169; Copyright Mundo Verde ltda</p>
+    </footer>
+
+    
+</body>
+</html>

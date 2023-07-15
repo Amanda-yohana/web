@@ -1,0 +1,108 @@
+header {
+    background-color: rgb(194, 247, 206);
+    padding: 60px 0;
+
+}
+.painel {
+    /*  realative faz com que o menu nav (absolute) fique dentro do painel */
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    
+    
+}
+
+nav{
+    /* posição absoluta em relação ao elemento pai: painel (relative) */ 
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    /* inline =  é o espaço horizontal */ 
+    /*  block = ocupa o espaço vertical (padrão) */
+    margin: 0 0 0 30px;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #155e26;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.lista-produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px 0;
+   
+}
+
+.lista-produtos li {
+    display: inline-block;
+    /*  posiciona os itens da lista lado a lado */
+   
+    text-align: center;
+    width: 30%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-style: solid;
+    border: 5px solid #155e26;
+    border-radius: 20px;
+
+}
+
+/* 
+Pseudo-classes CSS
+    ->  :hover, :active, :link, :visited, :firt-child, :nth-child, etc 
+*/
+
+.lista-produtos li:hover {
+    border-color: yellowgreen;
+
+}
+
+.lista-produtos li:active {
+    border-color: rgb(0, 0, 0);
+
+}
+
+.lista-produtos li:hover h2 {
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.produto-desc {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+.produto-desc {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+footer{
+    text-align: center;
+    background: url('img/bg.png');
+    padding: 30px 0;
+}
+
+.copyright {
+    
+    color: azure;
+    font-size: 13px;
+    margin-top: 20px;
+
+}
+
