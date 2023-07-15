@@ -1,0 +1,8 @@
+1- baixar VSCODE
+2- criar pasta de trabalho
+3- entrar no VSCODE 
+4- cliclar no icone explore
+5- abrir folder e selecionar pasta
+6- instalar live serve
+7- clicar no icone extencions
+8- baixar live server
