@@ -1,0 +1,32 @@
+1. Baixar o Node JS
+https://nodejs.org/pt-br/download/current
+Instalador Windows
+Só dar Next até o final
+
+2.Criar uma pasta para o projeto: CRUD MUNDO VERDE
+Abrir este Folder no VSCode
+
+3. Acessar o menu Terminal -> New Terminal
+   Isso vai abrir o Terminal na parte inferior da tela
+   - Digitar: NODE <ENTER>
+   Se aparecer a mensagem: Welcome to Node.js v18.17.0. 
+   Deu certo!
+   - Digite .EXIT (ponto exit)  para sair
+
+4. Agora vamos transformar nosso em um Projeto NODE JS,
+   baixando alguns pacotes.
+
+5. No Terminal digite: npm init -y
+   Vai ser criado o arquivo package.json dentro do foder
+
+6. No terminal digite: npm install mysql2
+
+7. Usando o Mysql Workbench crie o banco de dados MundoVerde
+   e a tabela produtos, conforme imagem abaixo.
+
+8. Agora digite o conteudo do arquivo db.js
+
+9. Para testar db.js crie o arquivo testedb.js
+   e no terminal use: Node testedb
+
+10. para cancelar um comando do Node pressione: CTRL CS

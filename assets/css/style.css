@@ -1,0 +1,30 @@
+body {
+    background: rgb(197, 246, 203);
+}
+
+nav {
+    background: rgb(56, 146, 0);
+}
+
+header {
+    background: rgb(142, 224, 149);
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.painel {
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    background: url('../imagens/bg.png');
+    padding: 5px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
